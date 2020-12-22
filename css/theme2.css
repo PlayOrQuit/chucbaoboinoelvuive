@@ -22,6 +22,8 @@
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
+	cursor: none;
+	pointer-events: none;
 }
 
 .ball:before {
