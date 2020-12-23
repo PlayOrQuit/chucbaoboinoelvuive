@@ -811,3 +811,15 @@ audio {
     right: -250px;
     top: 0px;
 }
+
+.baoboi-img {
+    background: url(../images/theme2/baoboi.jpg) top no-repeat !important;
+    background-size: cover !important;
+    object-fit: contain !important;
+}
+
+.baoboi-img-1 {
+    background: url(../images/theme2/baoboi1.jpg) top no-repeat !important;
+    background-size: cover !important;
+    object-fit: contain !important;
+}

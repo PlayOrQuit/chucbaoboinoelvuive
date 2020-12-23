@@ -11,6 +11,10 @@ jQuery(document).ready(function () {
 		$(this).toggleClass('open');
 	});
 
+	// jQuery(".fifth a").click();
+	// jQuery(".second a").click();
+	
+
 	const documentHeight = window.innerHeight;
 	$.fn.snowit({
 
@@ -34,10 +38,21 @@ jQuery(document).ready(function () {
 
 
 	autoOpenCloseFirst();
+	showImage();
 });
 
 const arrClass = [".third a", ".sixth a", ".first a", ".fourth a"];
 let arrOpen = "";
+
+function showImage(){
+	setTimeout(function () {
+		jQuery(".second img").attr("src", "images/theme2/baoboi.jpg");
+		jQuery(".second img").addClass("baoboi-img");
+
+		jQuery(".fifth img").attr("src", "images/theme2/baoboi1.jpg");
+		jQuery(".fifth img").addClass("baoboi-img-1");
+	}, 3000);
+}
 
 function autoOpenCloseFirst() {
 	setTimeout(function () {
