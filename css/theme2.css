@@ -24,6 +24,7 @@
 	-ms-backface-visibility: hidden;
 	cursor: none;
 	pointer-events: none;
+	z-index: 2;
 }
 
 .ball:before {
